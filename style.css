@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav ul {
+  position: fixed;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: white;
+  height: 2rem;
+  width: 100%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  /* overflow: hidden; */
+}
+
+section {
+  padding-top: 2rem;
+  min-height: 100vh;
+}
+
+#sobre {
+  background-color: yellow;
+}
+
+#servico {
+  background-color: rebeccapurple;
+}
+
+#contacto {
+  background-color: red;
+}
